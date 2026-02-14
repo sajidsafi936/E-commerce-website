@@ -1,0 +1,158 @@
+.main-upper-box{
+    height: 380px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    border: 1px solid rgb(214, 206, 206);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-upper-first{
+    height: 327px;
+    width: 280px;
+    margin: 10px;
+    margin-top: 23px;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-upper-first p{
+    color: rgb(128, 127, 127);
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.main-upper-first p:hover{
+    background-color: rgb(224, 235, 247) ;
+    color: black;
+    padding: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-upper-second{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 620px;
+    margin-top: 23px;
+}
+
+.main-upper-second h2{
+    padding-left: 45px;
+    padding-top: 55px;
+    padding-bottom: 3px;
+    font-weight: 300;
+}
+.main-upper-second h1{
+    padding-left: 45px;
+}
+
+.main-upper-second button{
+    margin: 45px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main-upper-third{
+    height: 400px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    background: rgb(232, 240, 249);
+    height: 122px;
+    margin: 10px;
+    border-radius: 7px;
+    margin-top: 23px;
+
+}
+
+
+.one img{
+    height: 42px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#one{
+     display: flex;
+    flex-direction: row;
+}
+
+#one h4{
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+#join-btn{
+    background-color: rgb(35, 109, 244);
+    color: white;
+    height: 25px;
+    width: 190px;
+    margin-left: 9px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-btn{
+    background-color: rgb(35, 109, 244);
+    color: white;
+    height: 25px;
+    width: 190px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.two{
+    background: rgb(250, 124, 14);
+    color: white;
+    height: 95px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.two h4{
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 75px;
+}
+
+
+.three{
+    background: rgb(7, 184, 155);
+    color: white;
+    height: 90px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.three h4{
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 75px;
+}
+

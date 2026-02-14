@@ -1,0 +1,75 @@
+
+#logo{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.header-css{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+} 
+
+.first-line{
+    margin-top: 20px;
+}
+
+.search-btn{
+    height: 42px;
+    width: 100px;
+    background-color: rgb(35, 109, 244);
+    border: none;
+    padding-top: 1px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.header-wraper{
+    border: 2px solid;
+    border-color: rgb(35, 109, 244);
+    border-radius: 10px;
+    padding: 0;
+    height: 46px;
+}
+
+.header-wraper select{
+    height: 41px;
+    width: 160px;
+    border: none;
+    font-size: 15px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.header-wraper input{
+    height: 42px;
+    width: 350px;
+    border: 1px solid;
+    border-color:rgb(35, 109, 244);
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.header-icons{
+    height: 20px;
+}
+
+.icons-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.icons{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.icons h4{
+    font-size: 12px;
+    color: rgb(165, 157, 157);
+}
