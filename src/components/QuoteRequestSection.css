@@ -1,0 +1,102 @@
+.quoterequest-first{
+    height: 450px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    border-radius: 10px;
+     background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.quote-box{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+
+.quote-text h2{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 370px;
+    font-size: 32px;
+    line-height: 35px;
+    color: white;
+    font-weight: 300;
+}
+
+.quote-text p{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 370px;
+    color: white;
+}
+
+.quote-box h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.quote-box input{
+    height: 37px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 191, 191);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+.quote-box textarea{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 191, 191);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.quote-select select {
+    height: 37px;
+    width: 190px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 191, 191);
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+
+#op{
+    width: 100px;
+    margin-left: 0px;
+}
+
+.quote-box button{
+    background-color: rgb(35, 109, 244);
+    color: white;
+    height: 37px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+}
