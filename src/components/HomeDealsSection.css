@@ -62,14 +62,26 @@
     margin-left: 20px;
 }
 
+.offer-items img:hover{
+    height: 102px;
+}
+
 #lap{
     margin-top: 30px;
+}
+
+#lap:hover{
+    height: 80px;
 }
 
 #cam{
     height: 150px;
     margin-top: 6px;
     margin-left: 9px;
+}
+
+#cam:hover{
+    height: 120px;
 }
 
 #headph{
@@ -163,10 +175,14 @@
     flex-direction: row;
 }
 
+
 .cc{
     height: 80px;
 }
 
+.cc:hover{
+    height: 82px;
+}
 .ll{
     height: 60px;
 }
