@@ -1,0 +1,70 @@
+.footer-top{
+    height: 250px;
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo-text{
+    width: 270px;
+}
+
+.footer-logo-text p{
+    color: rgb(103, 102, 102);
+}
+
+#footer-logo{
+    margin-bottom: 15px;
+}
+
+.footor-top-icons{
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-top-about{
+    margin-left: 60px;
+    width: 75px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#ftp{
+    color: rgb(154, 154, 154);
+}
+
+.google-logo{
+    height: 45px;
+}
+
+#google-app-box{
+    margin-left: 170px;
+}
+
+#google-app-box img{
+    cursor: pointer;
+}
+
+.footer-bottom{
+    height: 80px;
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 50px;
+    font-size: 17px;
+    color: rgb(118, 117, 117);
+}
+
+.footer-bottom select{
+    margin-left: 900px;
+    border: none;
+    font-size: 17px;
+    color: rgb(118, 117, 117);
+}

@@ -2,7 +2,7 @@
     height: 220px;
     margin: 20px;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
     border: 1px solid rgb(214, 206, 206);
     border-radius: 10px;
     display: flex;
@@ -121,7 +121,7 @@
     height: 270px;
     margin: 20px;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 50px;
     border: 1px solid rgb(214, 206, 206);
     border-radius: 10px;
     display: flex;
@@ -131,12 +131,20 @@
 
 
 .dealsecond-first{
-    width: 270px;
+    width: 287px;
     height: 270px;
     border: 1px solid rgb(214, 206, 206);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background: rgb(250, 227, 172);
+}
+
+#bb{
+    border-top-right-radius: 10px;
+}
+
+#cmc{
+    border-bottom-right-radius: 10px;
 }
 
 

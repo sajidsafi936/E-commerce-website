@@ -1,0 +1,42 @@
+.ES-box{
+    width: 272px;
+    height: 190px;
+    border: 1px solid rgb(214, 206, 206);
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.industryhub-img{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.search-img{
+    position: absolute;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 180px;
+}
+
+.ES{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+
+.ES-box p{
+    margin-left: 20px;
+    margin-right: 120px;
+    margin-top: 20px;
+    color: rgb(14, 3, 3);
+}
+
+.ES-heading{
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,36 @@
+.newsletter-container{
+    background-color: rgb(245, 244, 244);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.newsletter-container p{
+    color: rgb(138, 136, 136);
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.newsletter-textAndbtn input{
+    height: 37px;
+    width: 280px;
+    border: 2px solid rgb(233, 231, 231);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.newsletter-textAndbtn button{
+    background-color: rgb(35, 109, 244);
+    color: white;
+    height: 37px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+}

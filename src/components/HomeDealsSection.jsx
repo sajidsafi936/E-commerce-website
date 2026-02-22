@@ -154,7 +154,7 @@ function HomeDeals(){
 
 
                 <div className="dealmultiple">
-                   <div className="dealsecond-one">
+                   <div id="bb" className="dealsecond-one">
                         <div>
                            <p id="ss">Gamla</p>
                            <p id="pp">From USD 12</p>
@@ -163,7 +163,7 @@ function HomeDeals(){
                            <img id="cc" src={fawda} alt="" />
                         </div>
                     </div>
-                    <div className="dealsecond-two">
+                    <div id="cmc" className="dealsecond-two">
                         <div>
                            <p id="ss">Mobile</p>
                            <p id="pp">From USD 50</p>
@@ -263,7 +263,7 @@ function HomeDeals(){
 
 
                 <div className="dealmultiple">
-                   <div className="dealsecond-one">
+                   <div id="bb" className="dealsecond-one">
                         <div>
                            <p id="ss">Mobiles</p>
                            <p id="pp">From USD 49</p>
@@ -272,7 +272,7 @@ function HomeDeals(){
                            <img id="cc" src={mob} alt="" />
                         </div>
                     </div>
-                    <div className="dealsecond-two">
+                    <div id="cmc" className="dealsecond-two">
                         <div>
                            <p id="ss">Mobile phone</p>
                            <p id="pp">From USD 59</p>

@@ -1,10 +1,8 @@
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import MainUpper from "./components/MainUpper";
-import HomeDeals from "./components/HomeDealsSection";
-import QuoteRequest from "./components/QuoteRequestSection";
 import "./App.css";
-import Recommended from "./components/RecommendedSection.jsx";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 
 
 function App(){
@@ -12,10 +10,8 @@ function App(){
     <div>
          <Header/>
           <Navbar/>
-          <MainUpper/>
-          <HomeDeals/>
-          <QuoteRequest/>
-          <Recommended/>
+          <Home/>
+          <Footer/>
     </div>
   );
 }

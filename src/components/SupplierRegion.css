@@ -1,0 +1,38 @@
+h2{
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.supplier-individual{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 15px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.supplier-box img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.supplier-box{
+    margin-right: 47px;
+}
+
+
+.supplier-container{
+    height: 120px;
+    margin-right: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contry-website{
+    font-size: 13px;
+    color: rgb(154, 153, 153);
+}
