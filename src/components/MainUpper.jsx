@@ -1,14 +1,29 @@
 import "./MainUpper.css"
 import userimage from "../assets/user.png";
 import banner from "../assets/banner.png";
+import { useNavigate } from "react-router-dom";
 
 function MainUpper(){
+       const navigate = useNavigate(); // get navigate function
+
+    // Function to handle click on Electronics
+    const handleAutomobileClick = () => {
+        navigate("/productListingPage"); // redirects to product listing page
+        
+    };
+
+    const handleClothesandwareClick = () => {
+        navigate("/ClothesPage"); // redirects to product listing page
+        
+    };
+
     return(
         <>
         <div className="main-upper-box">
             <div className="main-upper-first">
-                <p>Automobiles</p>
-                <p>Clothes and wear</p>
+                 {/* Make Automobiles clickable */}
+                <p onClick={handleAutomobileClick} style={{cursor: "pointer"}}>Electronics</p>
+                <p  onClick={handleClothesandwareClick} style={{cursor: "pointer"}}>Clothes and wear</p>
                 <p>Home interiors</p>
                 <p>Computer and tech</p>
                 <p>Tool, equipments</p>

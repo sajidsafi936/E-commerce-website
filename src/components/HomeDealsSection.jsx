@@ -20,6 +20,7 @@ import mobiles from "../assets/mobiles.png";
 
 
 
+
 function HomeDeals(){
     return(
         <>
