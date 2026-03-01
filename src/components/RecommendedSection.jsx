@@ -1,5 +1,5 @@
 import "./RecommendedSection.css";
-import shirt from "../assets/shirt.png";
+import bitmap from "../assets/Bitmap.png";
 import coat from "../assets/coat.png";
 import doublepress from "../assets/doublepress.png";
 import wallet from "../assets/wallet.png";
@@ -15,7 +15,7 @@ function Recommended(){
             <h2 className="recommended-text">Recommended items</h2>
             <div className="recommended-boxes">
                 <div className="recommended-item">
-                    <img src={shirt} />
+                    <img src={bitmap} />
                     <h4>$10.30</h4>
                     <p>T-shirts with multiple colour, for men.</p>
                 </div>

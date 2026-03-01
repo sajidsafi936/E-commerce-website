@@ -8,12 +8,12 @@ function MainUpper(){
 
     // Function to handle click on Electronics
     const handleAutomobileClick = () => {
-        navigate("/productListingPage"); // redirects to product listing page
+        navigate("/product-listing"); // redirects to product listing page
         
     };
 
     const handleClothesandwareClick = () => {
-        navigate("/ClothesPage"); // redirects to product listing page
+        navigate("/clothes-and-wear"); // redirects to product listing page
         
     };
 
