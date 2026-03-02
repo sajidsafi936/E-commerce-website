@@ -1,0 +1,419 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+
+.cart-container {
+  display: flex;
+  gap: 20px;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.cart-items {
+  flex: 2;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px;
+  padding-bottom: 50px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+
+.my-cart-item img{
+    height: 90px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.title-description{
+    margin-left: 20px;
+}
+
+.title-description p{
+    width: 350px;
+    font-size: 16.5px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.remove-save-btn button{
+    height: 25px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1.6px solid #ddd;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
+}
+
+#btn-remove{
+    color: rgb(232, 16, 16);
+}
+
+#btn-save{
+    color: rgb(35, 109, 244);
+}
+
+.price-quantity{
+    margin-left: 200px;
+}
+
+.price-quantity p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 78px;
+    margin-bottom: 10px;
+}
+
+.price-quantity select{
+    height: 38px;
+    width: 130px;
+    border-radius: 5px;
+    border: 1.5px solid #ddd;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+
+.my-cart-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-item {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h4 {
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.meta,
+.seller {
+  font-size: 14px;
+  color: #777;
+  margin: 2px 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+
+
+
+.item-right {
+  text-align: right;
+}
+
+.item-right h4 {
+  margin: 0 0 10px;
+}
+
+.item-right select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Footer buttons */
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-btn {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-all {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+}
+
+/* SUMMARY */
+.summary {
+  flex: 1;
+  background: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  border-radius: 6px;
+  height: fit-content;
+  margin-right: 50px;
+  border: 1px solid #ddd;
+}
+
+
+.coupon p {
+  margin: 0 0 10px;
+}
+
+.coupon-input {
+  display: flex;
+  gap: 5px;
+}
+
+.coupon-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.coupon-input button {
+  padding: 8px 12px;
+  border: none;
+  background: #2f80ed;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.summary-details {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.discount span:last-child {
+  color: red;
+}
+
+.tax span:last-child {
+  color: green;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #00b517;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payments {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #555;
+}
+
+
+.secure-comment-devilery{
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 70px;
+  gap: 20px;
+}
+
+.secure-comment-devilery img{
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#security-comment{
+  color: #9e9b9b;
+  margin-top: 3px;
+}
+
+
+.saveforlater-box{
+  background-color: #fff;
+  height: 480px;
+  margin-left: 70px;
+  margin-right: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sss{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.saveforlater{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.save-item-box{
+  height: 250px;
+  width: 250px;
+  background-color: #ededed;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.save-item-box img{
+  height: 200px;
+  cursor: pointer;
+}
+
+.save-item-box img:hover{
+  height: 220px;
+}
+
+#saveitem-price{
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.saveitem-title, .saveitem-camera{
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.saveforlater-box button{
+  background-color: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 5px;
+  height: 35px;
+  width: 150px;
+  font-size: 16px;
+  color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#addtocart{
+  padding-left: 10px;
+}
+
+
+#laptop-img{
+  height: 150px;
+}
+
+#laptop-img:hover{
+  height: 170px;
+}
+
+#mobile-img{
+  height: 170px;
+}
+
+#mobile-img:hover{
+  height: 190px;
+}
+
+
+/* ---------------- Discount Banner ---------------- */
+
+.discount-banner {
+  display: flex;
+  gap: 400px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+  color: white;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#dis{
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.banner-text h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  margin-left: -1px;
+}
+
+.banner-text p {
+  color: #dbeafe;
+}
+
+.shop-btn {
+  background: orange;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.shop-btn:hover {
+  opacity: 0.9;
+}

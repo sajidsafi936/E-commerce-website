@@ -5,9 +5,18 @@ import messages from "../assets/comment.png";
 import cart from "../assets/shopping.png";
 import orders from "../assets/delivery-status.png";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 
 
 function Header(){
+        const navigate = useNavigate(); // get navigate function
+
+    // Function to handle click on Electronics
+    const handleCartClick = () => {
+        navigate("/cart"); // redirects to product listing page
+        
+    };
+
     return(
         <div>
         <div className="header-css">
@@ -35,8 +44,14 @@ function Header(){
                     <h4>Orders</h4>
                 </div>
                 <div className="icons">
-                    <img className="header-icons" src={cart} alt="" />
-                    <h4>Cart</h4>
+                    <img 
+                         className="header-icons" 
+                          src={cart} 
+                          alt="cart"
+                              onClick={handleCartClick}
+                              style={{ cursor: "pointer" }} 
+                    />
+                    <h4 onClick={handleCartClick} style={{ cursor: "pointer" }} >Cart</h4>
                 </div>
 
     
